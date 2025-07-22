@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Go Touch Some Grass</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" onclick="changeImage()">
+    <h1 class="title">go touch some grass</h1>
+    <img id="grassImage" src="assets/imgs/grama1.jpg" alt="Imagem de grama">
+    <button id="toggleAudio" onclick="toggleSound(event)">🌿 Som: Ativar/Desativar</button>
+  </div>
+  <audio id="natureSound" loop autoplay muted>
+    <source src="assets/audio/nature.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
